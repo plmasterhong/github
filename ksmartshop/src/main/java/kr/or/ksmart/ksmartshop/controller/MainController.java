@@ -10,6 +10,7 @@ public class MainController {
 	
 	@GetMapping("/")
 	public String index(Model model) {
+		model.addAttribute("git test", "Hello gitWorld");
 		return "index";
 	}
 }
