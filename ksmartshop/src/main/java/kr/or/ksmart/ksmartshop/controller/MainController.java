@@ -11,7 +11,7 @@ public class MainController {
 	@GetMapping("/")
 	public String index(Model model) {
 		model.addAttribute("git test", "Hello gitWorld");
-		model.addAttribute("git test", "test git");		
+		model.addAttribute("test", "test git");		
 		return "index";
 	}
 }
